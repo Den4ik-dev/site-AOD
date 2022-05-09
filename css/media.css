@@ -1,0 +1,139 @@
+@media screen and (max-width: 1200px) {
+  .block-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .block-row__main-img-2 {
+    margin: 20px 0;
+  }
+
+  .main-img {
+    max-width: none;
+    height: 674px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+  }
+
+  .mini-box {
+    width: 100%;
+  }
+
+  .middle-img-left,
+.middle-img-rigth {
+    max-width: none;
+    width: 100%;
+    height: 1068px;
+  }
+
+  .middle-img-rigth {
+    margin-top: 20px;
+  }
+
+  .block-btn .block-btn__btn a {
+    font-size: 17px;
+    height: 70px;
+    width: 280px;
+    max-width: none;
+  }
+
+  .form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .form input {
+    width: 60%;
+    max-width: none;
+  }
+  .form button {
+    width: 60%;
+    max-width: none;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .mainblock__mnu ul li {
+    display: none;
+  }
+
+  .mainblock__burger {
+    display: block;
+  }
+
+  .section-text {
+    text-align: justify;
+  }
+
+  .colage {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .colage__img-1 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 50%;
+            flex: 1 1 50%;
+  }
+
+  .colage__img-2 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 50%;
+            flex: 1 1 50%;
+  }
+
+  .colage__box-3 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 49.8%;
+            flex: 1 1 49.8%;
+  }
+
+  .colage__box-4 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 50.2%;
+            flex: 1 1 50.2%;
+  }
+
+  .colage__img-7 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 50%;
+            flex: 1 1 50%;
+  }
+
+  .colage__img-8 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 50%;
+            flex: 1 1 50%;
+  }
+
+  .footer__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .footer__info ul {
+    text-align: center;
+  }
+
+  .footer__massages {
+    margin: 6% 0 4% 0;
+  }
+
+  .footer__img:last-child {
+    margin-right: 0;
+  }
+}
